@@ -1,0 +1,68 @@
+\documentclass[a4paper,11pt]{article}
+
+% Packages
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+
+% Page Setup
+\geometry{left=1cm,right=1cm,top=1cm,bottom=1cm}
+
+% Custom Commands
+\newcommand{\resumeSection}[1]{\vspace{8pt}{\large\textbf{#1}}\par\vspace{4pt}\hrule\vspace{10pt}}
+\newcommand{\resumeItem}[2]{\textbf{#1} \hfill \textit{#2}\\}
+
+% Document
+\begin{document}
+
+% Header
+\begin{center}
+    \textbf{\LARGE John Doe}\\
+    \textit{Software Engineer}
+\end{center}
+
+% Contact Information
+\begin{flushright}
+    123 Main Street, City, State, Zip Code\\
+    (123) 456-7890\\
+    john.doe@email.com
+\end{flushright}
+
+% Education
+\resumeSection{Education}
+\resumeItem{Bachelor of Science in Computer Science}{University of XYZ, City, State \hfill May 20XX}
+
+% Experience
+\resumeSection{Experience}
+\resumeItem{Software Engineer}{ABC Company, City, State \hfill June 20XX - Present}
+\begin{itemize}[label=$\bullet$]
+    \item Developed and maintained web applications using Python and Django framework.
+    \item Collaborated with a cross-functional team to deliver high-quality software solutions.
+    \item Implemented automated testing and participated in code reviews to ensure code quality and reliability.
+\end{itemize}
+
+\resumeItem{Software Development Intern}{DEF Corporation, City, State \hfill Summer 20XX}
+\begin{itemize}[label=$\bullet$]
+    \item Assisted in developing a mobile application using React Native.
+    \item Participated in daily stand-up meetings and contributed to project discussions.
+    \item Conducted unit testing and bug fixes to improve application performance.
+\end{itemize}
+
+% Skills
+\resumeSection{Skills}
+\textbf{Programming Languages:} Java, Python, C++\\
+\textbf{Web Development:} HTML, CSS, JavaScript, Django, React\\
+\textbf{Database:} MySQL, PostgreSQL\\
+\textbf{Version Control:} Git\\
+\textbf{Operating Systems:} Windows, Linux\\
+
+% Projects
+\resumeSection{Projects}
+\resumeItem{E-commerce Website}{Developed a responsive e-commerce website using Django and integrated payment gateway for online transactions.}
+\resumeItem{Inventory Management System}{Built an inventory management system using Java and MySQL, enabling efficient tracking and management of stock.}
+
+% References
+\resumeSection{References}
+Available upon request.
+
+\end{document}

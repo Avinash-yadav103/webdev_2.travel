@@ -1,0 +1,163 @@
+*{
+    margin: 0; 
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('temple.jpg');
+}
+
+.box1{
+    width: 50px;
+    height: 100vh;
+    position: sticky;
+}
+
+.box23{
+    width: 1303px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.box2{
+    width: 1303px;
+    height: 12vh;
+}
+
+.headbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 12px;
+}
+
+.welcome{
+    font-family: Caveat Brush;
+    font-size: 20px;
+    width: 50%;
+}
+
+.in {
+    color: rgb(202, 99, 14)
+}
+
+.dia {
+    color: white;
+}
+
+.bookatrip {
+    border: 2px solid black;
+    border-radius: 45px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    display: flex;
+    font-size: 20px;
+}
+
+.search {
+    margin: 8px 107px 0px -40px;
+    font-size: 20px;
+}
+
+.box3{
+    width: 1303px;
+    height: 90vh;
+    display: flex;
+    /* background: red; */
+}
+
+.event {
+    width: 60%;
+    /* background-color: blue; */
+    padding: 100px;
+    font-size: 25px;
+    color: white;
+}
+
+.photos {
+    width: 50%;
+    padding: 50px;
+    /* background: green; */
+}
+
+
+.bombay {
+    width: 150px;
+    height: 225px;
+    left: -30px;
+    position: relative;
+    z-index: 1;
+    border: 1px transparent;
+    border-radius: 20px;
+}
+
+.puranaquila {
+    width: 150px;
+    height: 225px;
+    position: relative;
+    z-index: 2;
+    border: 1px transparent;
+    border-radius: 20px;
+    bottom: 231px;
+    left: 138px;
+}
+
+.indiagate {
+    width: 150px;
+    height: 225px;
+    right: 265px;
+    position: relative;
+    z-index: 3;
+    border: 1px transparent;
+    border-radius: 20px;
+}
+
+.indiatop {
+    width: 200px;
+    height: 250px;
+    position: relative;
+    z-index: 4;
+    border: 1px transparent;
+    border-radius: 20px;
+}
+
+.adiyogi {
+    width: 200px;
+    height: 250px;
+    border: 1px transparent;
+    border-radius: 20px;
+    padding: 2px;
+}
+
+
+.taj {
+    width: 200px;
+    height: 250px;
+    border: 1px transparent;
+    border-radius: 20px;
+    padding: 2px;
+}
+
+
+.river {
+    width: 200px;
+    height: 250px;
+    border: 1px transparent;
+    border-radius: 20px;
+    padding: 2px;
+}
+
+
+.map {
+    width: 200px;
+    height: 250px;
+    border: 1px transparent;
+    border-radius: 20px;
+    padding: 2px;
+}
+
